@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="vendor/motorola/smi" name="chrish89/android_vendor_motorola_smi" revision="cm-12.0"/>
+  <project path="vendor/motorola/smi" name="chrish89/android_vendor_motorola_smi" revision="cm-11.0"/>
 
   <project path="patches" name="chrish89/smi_patches" revision="cm-12.0"/>
 
   <project path="device/motorola/smi" name="chrish89/android_device_motorola_smi" revision="cm-12.0"/>
-
-  <project path="hardware/intel/audio/media" name="platform/hardware/intel/audio_media" remote="aosp" revision="master"/>
 
 </manifest>
