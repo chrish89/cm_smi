@@ -17,4 +17,4 @@ Steps to build CM12:
 - source build/envsetup.sh
 - sh ~/cm_smi/setup_environment.sh
 - lunch (select smi_userdebug)
-- make otapackage
+- mka otapackage
