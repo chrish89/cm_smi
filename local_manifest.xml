@@ -3,8 +3,10 @@
 
   <project path="vendor/motorola/smi" name="chrish89/android_vendor_motorola_smi" revision="cm-12.1"/>
 
-  <project path="patches" name="chrish89/smi_patches" revision="cm-12.1"/>
-
   <project path="device/motorola/smi" name="chrish89/android_device_motorola_smi" revision="cm-12.1"/>
+  
+  <project path="kernel/motorola/smi" name="chrish89/android_kernel_motorola_smi" revision="cm-12.1"/>
+
+  <project path="smi_patches" name="chrish89/smi_patches" revision="cm-12.1"/>
 
 </manifest>
