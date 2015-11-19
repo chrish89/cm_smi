@@ -3,28 +3,18 @@
 
   <project path="vendor/motorola/smi" name="chrish89/android_vendor_motorola_smi" revision="cm-11.0"/>
 
-  <project path="patches" name="chrish89/smi_patches" revision="cm-11.0"/>
-
   <project path="device/motorola/smi" name="chrish89/android_device_motorola_smi" revision="cm-11.0"/>
+  
+  <project path="kernel/motorola/smi" name="chrish89/android_kernel_motorola_smi" revision="cm-11.0"/>
 
-  <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" remote="aosp" revision="master"/>
+  <project path="smi_patches" name="chrish89/smi_patches" revision="cm-11.0"/>
 
-  <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" remote="aosp" revision="master"/>
+  <remove-project name="CyanogenMod/android_dalvik" />
 
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" remote="aosp" revision="master"/>
+  <project path="dalvik" name="HazouPH/android_dalvik" revision="cm-11.0IA"/>
 
-  <project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" remote="aosp" revision="master"/>
+  <remove-project name="CyanogenMod/android_frameworks_rs" />
 
-  <project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" remote="aosp" revision="master"/>
-
-  <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" remote="aosp" revision="master"/>
-
-  <project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" remote="aosp" revision="master"/>
-
-  <project path="hardware/intel/common/libmix" name="platform/hardware/intel/common/libmix" remote="aosp" revision="master"/>
-
-  <project path="hardware/intel/audio/media" name="platform/hardware/intel/audio_media" remote="aosp" revision="master"/>
-
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" remote="aosp" revision="master"/>
+  <project path="frameworks/rs" name="HazouPH/android_frameworks_rs" revision="cm-11.0IA"/>
 
 </manifest>

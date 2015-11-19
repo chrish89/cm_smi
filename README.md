@@ -11,7 +11,7 @@ Steps to build CM11:
 - cd ~/CM11
 - repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
 - mkdir .repo/local_manifests
-- cp ~/cm_smi/local_manifest.xml .repo/local_manifests/local_manifest.xml
+- cp ../cm_smi/local_manifest.xml .repo/local_manifests/local_manifest.xml
 - repo sync
 - sh patches/sync_and_patch.sh
 - source build/envsetup.sh
