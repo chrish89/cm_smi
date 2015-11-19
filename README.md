@@ -1,5 +1,5 @@
 # Build Environment for SMI
-This repo contains files and scripts for setting up the environment to build Cy$
+This repo contains files and scripts for setting up the environment to build CM11
 
 Steps to build CM11:
 
@@ -14,8 +14,6 @@ Steps to build CM11:
 - cp ../cm_smi/local_manifest.xml .repo/local_manifests/local_manifest.xml
 - repo sync
 - sh patches/sync_and_patch.sh
-- source build/envsetup.sh
 - sh ~/cm_smi/setup_environment.sh
-- sh vendor/cm/get-prebuilts
 - lunch (select smi_userdebug)
 - mka otapackage
